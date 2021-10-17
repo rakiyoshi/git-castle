@@ -1,1 +1,4 @@
-/home/aky/.dotfiles/gitignore_global
+.DS_Store
+*.swp
+.vimrc.local
+.serverless
