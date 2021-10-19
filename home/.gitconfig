@@ -2,8 +2,7 @@
 	name = Ryoh Akiyoshi
 	email = ryo614@gmail.com
 [core]
-	editor = vim
-	excludesfile = ${HOME}/.gitignore_global
+	editor = /usr/bin/env nvim
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
