@@ -13,8 +13,10 @@
 	defaultBranch = main
 [push]
 	default = current
-    asdf
+	asdf
 [pull]
 	rebase = false
 [include]
-    path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
+#[commit]
+#	gpgsign = true
