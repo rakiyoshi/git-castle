@@ -1,7 +1,6 @@
 [user]
 	name = Ryoh Akiyoshi
 	email = ryo614@gmail.com
-# 	signingkey = XXXXXXXXXXXXXXXX
 [core]
 	editor = /usr/bin/env nvim
 [filter "lfs"]
@@ -18,5 +17,11 @@
 	rebase = false
 [include]
 	path = ~/.gitconfig.local
-#[commit]
-#	gpgsign = true
+
+#
+## .gitcongig.local
+#
+# [user]
+# 	signingkey = XXXXXXXXXXXXXXXX
+# [commit]
+# 	gpgsign = true
